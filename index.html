@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class ="title">Youtube</span>
+        </div>
+        <span class="icons">
+            <i class="fas fa-search"></i>   
+            <i class="fas fa-ellipsis-v"></i>
+        </span>
+    </header>
+
+    <!-- video-->
+    <section class="vdPlayer">
+        <video controls src = "video/Youtube.mp4"></video>
+    </section>
+
+    <!-- channel infor-->
+    <div class="infoAndUpnext">
+        <section class="infor">
+            <div class="metadata">
+                <ul class="hashtag">
+                    <li>#ParkYoungJae</li>
+                    <li>#IT-information</li>
+                    <li>#JBNU</li>
+                </ul>
+                <div class="titleAndBtn">
+                    <span class="title clamp">유튜브 사이트 따라 만들기(HTML + CSS 연습 , 웹 포트폴리오) | 프론트엔드 개발자 입문편 : HTML,CSS,JavaScript 영재의 유튜브 클론코딩 해보기 포트폴리오 만들어보자 !</span>
+                    <button class="plusBtn"><i class="fas fa-caret-down"></i></button>              
+                </div>
+                <span class="views">1M views 1month ago</span>
+            </div>
+            <ul class="actionBtn">
+                <li><button><i class="fas fa-thumbs-up"></i><span>1K</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+            </ul>
+            <div class="channel">
+                <div class="data">
+                    <img src="img/avatar.jpg" alt=""/>
+                    <div class="info">
+                        <span class="name">영튜브</span>
+                        <span class="subscriber">1M subscribers</span>
+                    </div>
+                </div>
+                <div class="subscribe"><span>subscribe</span></div>
+            </div>
+        </section>
+        <!-- Upnext-->
+        <section class="Upnext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class = "img"><img src="img/1.jfif" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            역대급 솔쿼드로 26킬 치킨 먹다! 딜 넣는 꿀팁이 전부 모여있다구 ?
+                        </span>
+                        <span class="name">영튜브</span>
+                        <span class="views">5M views</span>
+                    </div>
+                    <button class="plusBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="img/2.jfif" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            배에만 살이 찌는 것은 굉장히 위험하고 외계인 같다. 당신의 모습이라면 이 영상 시청 필수 !
+                        </span>
+                        <span class="name">영튜브</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="plusBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="img/3.jfif" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            맨유를 6-1로 이긴 비결의 손흥민 ? 그의 인터뷰 현장 !
+                        </span>
+                        <span class="name">영튜브</span>
+                        <span class="views">12K views</span>
+                    </div>
+                    <button class="plusBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src ="main.js"></script>
+</body>
+</html>
